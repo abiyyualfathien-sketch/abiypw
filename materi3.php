@@ -7,7 +7,7 @@
 if(isset ($_POST["angka"])){
     $newAngka = $_POST["angka"];
     for ($i = 1; $i <= $newAngka; $i++) {
-        echo "ini angkaaa $i <br>";
+        echo "ini angka $i <br>";
     }
 }
 
